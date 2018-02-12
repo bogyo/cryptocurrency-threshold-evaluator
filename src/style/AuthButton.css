@@ -1,0 +1,28 @@
+.AuthButton {
+	padding-right: 30px;
+	text-align: right;
+	background: #509fcf;
+	color: #fff;
+}
+
+.AuthButton span {
+	margin-right: 10px;
+	padding-right: 15px;
+	border-right: 1px solid;
+}
+
+.AuthButton button {
+	margin: 10px;
+	padding: 10px 25px;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 4px;
+	outline: none;
+	background: #f2f9fc;
+	color: #509fcf;
+	cursor: pointer;
+}
+
+.AuthButton button:hover {
+	background: #fff;
+}

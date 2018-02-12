@@ -1,0 +1,18 @@
+.ThresholdDropDown {
+	max-width: 50%;
+	margin: 20px auto;
+	text-align: left;
+}
+
+.ThresholdDropDown label {
+	display: block;
+	margin: 10px 0;
+}
+
+.ThresholdDropDown .Select .Select-control {
+	border: 1px solid #e0e0e0;
+}
+
+.Select-placeholder, .Select--single>.Select-control .Select-value {
+	color: #594a44;
+}

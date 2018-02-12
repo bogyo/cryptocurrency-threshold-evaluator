@@ -1,0 +1,17 @@
+.App {
+	font-size: 1.6rem;
+	text-align: center;
+	color: #594a44;
+}
+
+.App>* {
+	box-sizing: border-box;
+}
+
+.App>*:before {
+	box-sizing: border-box;
+}
+
+.App>*:after {
+	box-sizing: border-box;
+}

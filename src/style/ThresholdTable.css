@@ -1,0 +1,49 @@
+.TreshHoldTable {
+	padding: 10px;
+}
+
+.TreshHoldTable .message {
+	margin: 15px 0 5px;
+	font-size: 2.1rem;
+	font-style: normal;
+	font-weight: 100;
+	letter-spacing: 3.15px;
+	line-height: 2.9rem;
+	text-transform: uppercase;
+	color: #509fcf;
+}
+
+.TreshHoldTableItem {
+	width: 100%;
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+
+.TreshHoldTable tr:nth-child(odd) {
+	background: #fff;
+}
+
+.TreshHoldTable tr:nth-child(even) {
+	background: #f9f9f9;
+}
+
+.TreshHoldTable th, .TreshHoldTable td {
+	width: 25%;
+	padding: 7px;
+	font-size: 1.2rem;
+	border: 1px solid #e0e0e0;
+	color: #594a44;
+}
+
+.TreshHoldTable th {
+	font-size: 1.6rem;
+	text-transform: capitalize;
+	color: #509fcf;
+}
+
+.TreshHoldTable tbody td {
+	width: 25%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
