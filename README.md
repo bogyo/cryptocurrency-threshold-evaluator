@@ -16,8 +16,8 @@ Add a new threshold (default: 0) or change the cryptocurrency fields (default: B
 
 - Radio buttons instead of dropdown => better UX 1 click only solution
 - Use graph to visualize data
-- add a column with actual threshold => easier to compare
-- add numbers to rows => easier to check how many times above threshold
+- add a column with actual threshold => easier to compare - implemented, remove comments from ThresholdTable
+- add numbers to rows => easier to check how many times above threshold - implemented, remove comments from ThresholdTable
 - add possibility to the user to change units  => easier to read bigger numbers
 - use CSS preprocessors (for instance sass).
 I decided not use it here, because there were not too complex CSS,
