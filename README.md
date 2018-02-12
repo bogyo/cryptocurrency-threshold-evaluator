@@ -12,13 +12,18 @@ Please note: evaluator available only for authenticated users on route /callback
 ## Usage
 Add a new threshold (default: 0) or change the cryptocurrency fields (default: BTC_LSK) to update the table.
 
-## Possible dev plan:
+## Possible dev plan && UX improvements
 
 - Radio buttons instead of dropdown => better UX 1 click only solution
 - Use graph to visualize data
-- use CSS preprocessors (for instance sass)
+- use CSS preprocessors (for instance sass).
+I decided not use it here, because there were not too complex CSS,
+If you are interested in preprocessors and create-react-app config</br>
+to enable preprocessors(npm reject, add sass-loader etc.), </br>
+ You can find sample in my github repo.</br>
 - More mobile friendly UI, improve responsiveness
 - more error handling
 - auth0 user data like name
+- color versions
 - unit tests
 etc...
